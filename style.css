@@ -1,0 +1,122 @@
+body {
+    font-size: 20px;
+    align-items: center;
+}
+
+nav {
+    font-size: 20px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    float: left;
+    display: flex;
+    margin: 10px 0px;
+}
+
+.list {
+    margin: 0 30px;
+}
+
+.list2 {
+    margin-left: 30px;
+    margin-right: -150px;
+}
+
+.profil {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 180px;
+    border-radius: 50%;
+}
+
+h3 {
+    margin-top: -20px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.td_title {
+    text-align: center;
+}
+
+audio {
+    width: 400px;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 300px;
+}
+
+button {
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 75%;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 85%;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 100%;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.flexbox {
+    background-color: #ffadd3;
+    margin: 0 auto;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    padding: 10px;
+}
+
+.flexbox1 {
+    height: 20%;
+    width: 20%;
+    background-color: rgb(0, 255, 242);
+}
+
+.flexbox2 {
+    height: 20%;
+    width: 20%;
+    margin-left: 135px;
+    background-color: rgb(195, 0, 255);
+}
+
+.flexbox3 {
+    height: 20%;
+    width: 20%;
+    margin-left: 135px;
+    background-color: rgb(0, 255, 242);
+}
